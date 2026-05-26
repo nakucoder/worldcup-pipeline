@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  worldcup-pipeline:
+    build: .
+    ports:
+      - "8003:8000"
+    environment:
+      - API_FOOTBALL_KEY=${API_FOOTBALL_KEY}
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_REGION=${AWS_REGION}
+      - S3_BUCKET=${AWS_BUCKET_NAME}
+    volumes:
+      - .:/app
+    env_file:
+      - .env

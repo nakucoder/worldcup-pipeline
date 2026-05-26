@@ -1,0 +1,1 @@
+{"statusCode": 200, "headers": {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"}, "body": "{\"message\": \"World Cup system refreshed\", \"fetched_at\": \"2026-05-26T15:06:15.516400+00:00\"}"}
