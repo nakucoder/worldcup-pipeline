@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+lambda.zip
+package/
+*.egg-info/
+.venv/
+venv/
+response.json
