@@ -11,7 +11,7 @@ REGION = os.environ.get("AWS_REGION", "us-east-2")
 API_KEY = os.environ.get("API_FOOTBALL_KEY")
 API_HOST = "v3.football.api-sports.io"
 LEAGUE_ID = 1      # Static ID for FIFA World Cup
-SEASON_YEAR = 2022 # Target tournament year
+SEASON_YEAR = 2026 # Target tournament year
 
 
 def fetch_from_api(endpoint: str) -> dict:
